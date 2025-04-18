@@ -14,7 +14,9 @@ The following steps were performed and successfully tested on Windows 11.
 3. In extensions icon, install the following extensions:
 
 C/C++ by Microsoft
+
 C/C++ Extension
+
 exe Runner
 
 Exit Visual Studio Code

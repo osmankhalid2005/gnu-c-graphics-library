@@ -27,7 +27,9 @@ https://sourceforge.net/projects/mingw/
 5. Run setup of MinGW, and under basic step, check the following packages:
 
 mingw32-base
+
 mingw32-gcc-g++
+
 msys-base
 
 Click on mark for installation, and then from the installation menu, click on apply changes.
@@ -52,6 +54,7 @@ C:\MinGW\lib
 10. In Visual Studio Code, open the folder "graphicsproject", and click on Run C/C++ File from the menu. You will see the output showing a line, circle, and triangle.
 
 Alternatively, you can also build the project with this command:
+
 g++ main.cpp -o main.exe -I/mingw32/include -L/mingw32/lib -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 
 
 and then run the main.exe by right clicking on it, and click "Run Executable".
@@ -64,18 +67,27 @@ Run the sample programs in the "examples" folder to know about the functionality
 The functions reference is available on the following URLs: 
 
 http://winbgim.codecutter.org/V6_0/doc/index.html
+
 https://home.cs.colorado.edu/~main/cs1300/doc/bgi/bgi.html
+
 https://home.cs.colorado.edu/~main/cs1300/doc/bgi/index.html
 
 Some sample exercises on this URL:
+
 https://home.cs.colorado.edu/~main/cs1300/README.html
+
 
 You can also ask integrated co-pilot to generate basic graphic programs.
 
 Good Luck!
 
+
 Dr. Osman Khalid
+
 Associate Professor
+
 COMSATS University Islamabad,
+
 Abbottabad Campus
+
 https://sites.google.com/view/osmankhalid

@@ -60,6 +60,7 @@ g++ main.cpp -o main.exe -I/mingw32/include -L/mingw32/lib -lbgi -lgdi32 -lcomdl
 and then run the main.exe by right clicking on it, and click "Run Executable".
 
 ......................
+
 Documentation:
 
 Run the sample programs in the "examples" folder to know about the functionality and implementations of graphic functions provided by the library. To run a program from "examples" folder, copy-paste its code in the main.cpp file in the graphicsproject folder.
